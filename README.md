@@ -1,1 +1,1 @@
-# ExchangeAutomation
+# This repository hosts some commonly used automation scripts that I use day to day
