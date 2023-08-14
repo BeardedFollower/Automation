@@ -1,1 +1,1 @@
-# This repository hosts some commonly used automation scripts that I use day to day
+# This repository hosts some automation scripts that I needed to publish pubicly
