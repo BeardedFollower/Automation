@@ -21,7 +21,7 @@ $installerPath = "$($TempFolderLocation)\PBIDesktopSetup_x64.exe"
 ## Below writes message to powershell window about usage of script
 Write-Host "This Script will force update PowerBI Desktop Standalone"
 
-## Make Location for PowerBI Download
+## Make temporary location for PowerBI Download, if it doesn't exist
 if (Test-Path $TempFolderLocation) {
    Write-Host "Temp Folder Exists, Continuing Installation."
 }
