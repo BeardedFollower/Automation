@@ -1,8 +1,11 @@
 ## ----------------------------------------------------------------------- ##
 ## Script Created to ease updates of PowerBI on the Azure VDI Session Hosts
+##
 ## Created by BeardedFollower
 ## ----------------------------------------------------------------------- ##
-## To Use: copy powershell script to session host, run script, might have to approve admin consent for powerbi installer
+## To Use:
+## copy powershell script to session host, run script
+## might have to approve admin consent for powerbi installer
 
 # Self-elevate the script if required
 if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
