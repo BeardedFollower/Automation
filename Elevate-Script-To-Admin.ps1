@@ -5,7 +5,7 @@
 ## ----------------------------------------------------------------------- ##
 ## To Use:
 ## copy snippet below into script
-## (preferably at the begining so that it elevates before anything else.)
+## (preferably at the beginning so that it elevates before anything else.)
 
 # Self-elevate the script if required
 if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
